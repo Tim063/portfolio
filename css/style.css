@@ -1,0 +1,301 @@
+html{background: url(background.png);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100%;
+
+}
+.hello{
+    height: 112px;
+    width: 405px;
+}
+
+.header{
+    margin-top: 48px;
+    width: 100%;
+    height: 56px;
+}
+.header .menu{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 387px;
+}
+.gradient{
+    margin-right: 387px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    font-family: 'SF Pro Display', semibold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    transition: 0.72s;
+
+
+}
+.gradient:hover{    
+    transform: scale(1.08);
+    transition: 0.32s;}
+.gradientspan{
+    background: linear-gradient(to right, #24FF00, #FF00E5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.top_menu li {
+    display: inline-block;
+
+}
+.top_menu li a{
+    text-decoration: none;
+    font-family: 'SF Pro Display', Semibold, normal;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.48);
+    height: 56px;
+
+
+
+
+}
+.top_menu li:nth-child(2){
+    margin: 16px 16px 16px 16px;
+}
+.top_menu li:nth-child(3){
+    margin: 16px 16px 16px 16px;
+}
+.top_menu li:first-child{
+
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+h1{
+font-family: SF Pro Display Medium;
+font-style: normal;
+font-weight: 400;
+font-size: 48.83px;
+line-height: 58px;
+color: #FFFFFF;
+display: inline;
+}
+.name{
+font-family: SF Pro Display Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 48.83px;
+color: rgba(255, 255, 255, 0.48);
+}
+.about{
+font-family: SF Pro Display Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.48);
+width: 473px;
+height: 72px;
+margin: 0;
+margin-top: 16px;
+margin-bottom: 48px;
+}
+.contact1{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: absolute;
+    padding-top: 18px;
+    left: 33px;
+
+
+
+}
+.button_teleg{
+    transition: 0.72s;
+    border-radius: 8px;
+    background:linear-gradient(to right, rgba(0, 94, 236, 0.7), rgba(0, 255, 55, 0.7));
+    text-align: center;
+    width: 236px;
+    height: 52px;
+}
+.button_teleg:hover{    
+    transform: scale(1.08);
+    transition: 0.32s;
+}
+
+.body_about{
+    margin-left: 387px;
+    margin-right: 387px;
+    margin-top: 56px;
+    position: relative;
+
+}
+
+.gifka{
+    content: "";
+
+    background-image: url(matrix.gif);
+    width: 784px;
+    height: 467px;
+    opacity: 17%;
+    top: 0px;
+    left: 362px;
+    position: absolute;
+    z-index: -2;
+}
+.main{
+    margin-top: 88px;
+    margin-left: 387px;
+}
+.skill{
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39.06px;
+    line-height: 144%;
+    color: #FFFFFF;
+    width: 137px;
+    height: 56px;
+    margin-bottom: 32px;
+}
+.skills{
+    display: flex;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.8);
+}
+.skills_block1{
+    width: 264px;
+    height: 232px;
+    text-align: center;
+    margin-right: 30px;
+}
+.skills_block2{
+    width: 264px;
+    height: 232px;
+    text-align: center;
+    margin-right: 30px;
+}
+.skills_block3{
+    width: 264px;
+    height: 216px;
+    text-align: center;
+    margin-right: 30px;
+}
+.skills_block4{
+    width: 264px;
+    height: 216px;
+    text-align: center;
+
+}
+.htmlimg{
+    margin-bottom: 8px;
+}
+.cssimg{
+    margin-bottom: 8px;
+
+}
+.jsimg{
+    margin-bottom: 24px;
+
+}
+.pyimg{
+    margin-bottom: 24px;
+
+}
+.contaner{
+    margin-bottom: 72px;
+}
+.portfolio{
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39.06px;
+    line-height: 144%;
+    color: #FFFFFF;
+    width: 203px;
+    height: 56px;
+    margin-bottom: 16px;
+}
+.portfolios{
+    display: flex;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.8);
+    width: 1146px;
+    height: 262px;
+    margin-bottom: 48px;
+}
+.portfolio_block1{
+    width: 362px;
+    height: 248px;
+    margin-right: 30px;
+    text-align: center;
+}
+.portfolio_block2{
+    width: 362px;
+    height: 248px;
+    margin-right: 30px;
+    text-align: center;
+}
+.portfolio_block3{
+    width: 362px;
+    height: 262px;
+    text-align: center;
+}
+.keksbyimg{
+    margin-bottom: 32px;
+}
+.webdevimg{
+    margin-bottom: 32px;
+}
+.pyprogimg{
+    margin-bottom: 16px;
+}
+.icons{
+    width: 210px;
+    height: 58px;
+    display: flex;
+
+    margin-right: 855px;
+    margin-left: 855px;
+    margin-bottom: 46px;
+    margin-top: 48px;
+    
+}
+.vk:hover{    
+    transform: scale(1.08);
+    transition: 0.32s;}
+.vk{
+    transition: 0.72s;
+}
+.teleg:hover{    
+    transform: scale(1.08);
+    transition: 0.32s;}
+.teleg{
+    transition: 0.72s;
+    }
